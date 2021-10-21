@@ -6,7 +6,7 @@ const {
     Proof: ProofResponse,
     StoreTreeProofs,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('dapi-grpc');
 
 const GetIdentityResponseClass = require('../../../../../lib/methods/platform/getIdentity/GetIdentityResponse');
 const getMetadataFixture = require('../../../../../lib/test/fixtures/getMetadataFixture');

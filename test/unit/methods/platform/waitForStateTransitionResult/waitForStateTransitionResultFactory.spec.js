@@ -8,7 +8,7 @@ const {
     ResponseMetadata,
     StoreTreeProofs,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('dapi-grpc');
 const cbor = require('cbor');
 
 const waitForStateTransitionResultFactory = require('../../../../../lib/methods/platform/waitForStateTransitionResult/waitForStateTransitionResultFactory');

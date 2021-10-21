@@ -3,7 +3,7 @@ const {
     BroadcastStateTransitionRequest,
     PlatformPromiseClient,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('dapi-grpc');
 
 const DashPlatformProtocol = require('@dashevo/dpp');
 

@@ -4,7 +4,7 @@ const {
     GetBlockResponse,
     CorePromiseClient,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('dapi-grpc');
 
 const getBlockByHeightFactory = require('../../../../lib/methods/core/getBlockByHeightFactory');
 

@@ -7,7 +7,7 @@ const {
     Proof,
     StoreTreeProofs,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('dapi-grpc');
 
 const getDataContractFixture = require('@dashevo/dpp/lib/test/fixtures/getDataContractFixture');
 
